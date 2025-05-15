@@ -348,6 +348,9 @@
       .business-list {
         max-width: 100%;
       }
+      .search-bar input[type="text"]{
+        padding: 0.05rem 1rem !important;
+      }
       .hero h1{
         font-size: 1.2rem;
       }
