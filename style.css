@@ -358,7 +358,7 @@
         font-size: 0.9rem;
       }
       .item-cra .cra-col img{
-        height: auto;
+        height: 150px !important;
       }
       .cra-col .row .col-item1, .cra-col .row .col-item2, .cra-col .row .col-item3, .cra-col .row .col-item4{
         width: 48% !important;
