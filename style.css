@@ -331,7 +331,7 @@
         justify-content: flex-start;
       }
       main {
-        padding: 1.5rem 1rem 3rem;
+        padding: 1rem 0.5rem 4rem !important;
       }
       .search-bar {
         max-width: 100%;
