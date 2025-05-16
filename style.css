@@ -286,6 +286,29 @@
         text-transform: lowercase;
         font-size: 1.1rem;
         }
+        .listbussinessformmain{
+            display: none;
+        }
+        .listbussinessform{
+            width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    background-color: antiquewhite;
+        }
+        .listbussinessformmain{
+                position: fixed;
+    top: 25%;
+    z-index: 99999999;
+        }
+        
+        .listbussinessform .row{
+            gap: 5px;
+            margin: auto 5px;
+        }
+        .listbussinessform .row .col-lg-6{
+            border: 1px solid;
+            width: 49.8%;
+        }
     /* 1024 laptop Adaptation */
     @media (max-width: 1200px) {
         .cra-col .row .col-item1, .cra-col .row .col-item2, .cra-col .row .col-item3, .cra-col .row .col-item4{
@@ -352,6 +375,9 @@
       }
       .search-bar {
         max-width: 100%;
+      }
+      .listbussion{
+        top: 140px !important;
       }
       .categories h2{
         display: block;
